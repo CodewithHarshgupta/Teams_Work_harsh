@@ -1,0 +1,132 @@
+    .App {
+        text-align: center;
+    }
+    
+    .App-logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
+    
+    .btn-customer {
+        transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .btn-customer:hover {
+        background-color: lemonchiffon;
+        /* Change to the desired hover background color */
+        color: #fff;
+        /* Change to the desired hover text color */
+        transform: scale(1.09);
+        /* Change to the desired hover transform effect */
+    }
+    
+    .head {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .head:hover {
+        /* Change to the desired hover background color */
+        color: blue!important;
+        /* Change to the desired hover text color */
+        transform: scale(1.07);
+    }
+    
+    .head1 {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .head1:hover {
+        /* Change to the desired hover background color */
+        color: #251180!important;
+        /* Change to the desired hover text color */
+        transform: scale(1.07);
+    }
+    
+    .head2 {
+        transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .head2:hover {
+        background-color: rgba(5, 30, 255, 0.301);
+        /* Change to the desired hover background color */
+        color: #fff;
+        /* Change to the desired hover text color */
+        transform: scale(1.07);
+    }
+    
+    .head3 {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .head3:hover {
+        /* Change to the desired hover background color */
+        color: whitesmoke!important;
+        /* Change to the desired hover text color */
+        transform: scale(1.07);
+    }
+    
+    .mission:hover {
+        opacity: 0.7;
+    }
+    
+    .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+    
+    .App-link {
+        color: #61dafb;
+    }
+    
+    .footer-hov:hover {
+        color: #ece90e !important;
+        transform: scale(1.09);
+    }
+    
+    .footer-hov1 {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .footer-hov1:hover {
+        color: silver!important;
+        transform: scale(1.07);
+    }
+    
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .loading {
+        font-size: 40px;
+        align-items: center;
+        text-shadow: #162529;
+        color: #61dafb
+    }
+    
+    .head4 {
+        height: 30vh;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    
+    @media (min-width: 930px) {
+        .head4 {
+            height: 40vh;
+            /* Adjust the styles for smaller screens as needed */
+        }
+    }
